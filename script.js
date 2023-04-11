@@ -85,6 +85,7 @@ submitButton.addEventListener("click", function() {
       console.log("Success! Welcome back!");
       window.alert("Success! Welcome back!");
       // ...
+      window.location.href = "https://flareglobalsoft.com/";
     })
     .catch((error) => {
       const errorCode = error.code;
